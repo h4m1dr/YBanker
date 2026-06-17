@@ -1,17 +1,23 @@
-export const DEFAULT_LOCALE = "zh";
+export const DEFAULT_LOCALE = "en";
 
 export const SUPPORTED_LOCALES = [
-  {
-    key: "zh",
-    labelKey: "navBar.langSwitcher.zh",
-    dayjsLocale: "zh",
-    datePickerLocale: "zh-CN",
-  },
   {
     key: "en",
     labelKey: "navBar.langSwitcher.en",
     dayjsLocale: "en",
     datePickerLocale: "en-US",
+  },
+  {
+    key: "fa",
+    labelKey: "navBar.langSwitcher.fa",
+    dayjsLocale: "fa",
+    datePickerLocale: "fa-IR",
+  },
+  {
+    key: "zh",
+    labelKey: "navBar.langSwitcher.zh",
+    dayjsLocale: "zh",
+    datePickerLocale: "zh-CN",
   },
   {
     key: "ru",

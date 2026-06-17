@@ -1,15 +1,17 @@
 import { createI18n } from "vue-i18n";
 
 import en from "./en";
+import fa from "./fa";
 import { getInitialLocale } from "./languages";
 import ru from "./ru";
 import zh from "./zh";
 
 const i18n = createI18n({
-  locale: getInitialLocale(), // 初始化配置语言
+  locale: getInitialLocale(),
   messages: {
-    zh,
     en,
+    fa,
+    zh,
     ru,
   },
 });
